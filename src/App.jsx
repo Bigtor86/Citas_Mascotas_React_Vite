@@ -26,10 +26,10 @@ function App() {
   }
 
   return (
-    <div className="container mx-auto mt-20">
+    <div className="container mx-auto mt-10">
       <Header />
 
-      <div className="mt-12 md:flex">
+      <div className="mt-6 md:flex">
         <Formulario
           pacientes={pacientes}
           setPacientes={setPacientes}
